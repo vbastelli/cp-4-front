@@ -13,9 +13,20 @@ function App() {
   return (
     <>
       <Header />
+    
+    <section id="home">
       <Home />
+    </section>
+
+    <section id='sobrenos'>
       <Sobrenos />
+
+    </section>
+
+    <section id="contato">
       <Contato />
+    </section>
+
       <Footer />
     </>
   );
