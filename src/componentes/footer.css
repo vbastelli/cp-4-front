@@ -5,8 +5,8 @@
 }
 
 .footer {
-    background-color: #7307bb;
-    color: white;
+    background-color: var(--font-color1);
+    color: var(--font-color4);
     text-align: center;
     padding: 20px 0;
     position: relative;
@@ -40,13 +40,13 @@
 }
 
 .social-links a {
-    color: white;
+    color: var(--font-color4);
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #39035d;
+    color: var(--font-color1);
 }
 
 @media (max-width: 768px) {

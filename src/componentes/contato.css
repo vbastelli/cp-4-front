@@ -4,20 +4,20 @@
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color:#6A0DAD; 
+  background-color: var(--font-color1); 
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px var(--font-color2);
   margin: 40px auto;
   max-width: 900px; 
   font-family: 'Playfair Display', serif;
 }
 
 .contato-info, .contato-form {
-  background-color: #FFFFFF; 
-  color: var(--text-color, #333333); 
+  background-color: var(--font-color4); 
+  color: var(--font-color2); 
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px var(--font-color2);
   margin: 10px;
   width: 100%; 
   max-width: 780px; 
@@ -29,7 +29,7 @@
 
 .contato-title, .contato-form-title {
   font-size: 2rem;
-  color: var(--primary-bg-color, #6A0DAD); 
+  color: var(--font-color1); 
   margin-bottom: 20px;
   text-align: center;
 }
@@ -53,10 +53,10 @@
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 2px solid #6A0DAD; 
+  border: 2px solid var(--font-color1); 
   border-radius: 10px;
-  background-color: #F5F5F5;
-  color: var(--text-color, #333333); 
+  background-color: var(--font-color4);
+  color: var(--font-color2); 
 }
 
 .form-group textarea {
@@ -66,8 +66,8 @@
 .contato-submit {
   display: inline-block;
   padding: 15px 30px;
-  background-color: var(--primary-bg-color, #6A0DAD); 
-  color: var(--secondary-color, #FFFFFF); 
+  background-color: var(--font-color1); 
+  color: var(--font-color4); 
   border: none;
   border-radius: 25px;
   font-size: 1.1rem;
@@ -79,7 +79,7 @@
 }
 
 .contato-submit:hover {
-  background-color: #4a008e; 
+  background-color: var(--font-color1); 
   transform: scale(1.05);
 }
 

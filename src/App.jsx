@@ -6,6 +6,7 @@ import Sobrenos from "./componentes/Sobrenos";
 import Contato from "./componentes/Contato";
 import './componentes/sobrenos.css'; 
 import './componentes/contato.css'; 
+import './styles/global.css'; 
 
 function App() {
   const [count, setCount] = useState(0);

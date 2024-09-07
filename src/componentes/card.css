@@ -1,9 +1,9 @@
 
 .card {
-  background-color: hsl(276, 93%, 38%);
-  color: white;
+  background-color: var(--font-color1);
+  color: var(--font-color4);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px var(--font-color4);
   overflow: hidden;
   width: 300px; 
   text-align: center;
@@ -41,8 +41,8 @@
 }
 
 .btn {
-  background-color: #ffdd57;
-  color: #7307bb;
+  background-color: var(--font-color3);
+  color: var(--font-color1);
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
@@ -52,7 +52,7 @@
 }
 
 .btn:hover {
-  background-color: #ffd700;
+  background-color: var(--font-color3);
 }
 
 
